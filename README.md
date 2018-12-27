@@ -6,7 +6,7 @@
 
 1.mysql复制基础
 1.1 异步复制，且主从之间存在时间延时，示意图如下：
-![异步复制](https://i.imgur.com/yE9r1yz.jpg)
+![异步复制](https://i.imgur.com/6gZtMpd.jpg)
 1.2 复制基于binlog日志文件，其格式分为以下三种：
 ``` java
 
@@ -19,9 +19,9 @@ mixed:
 ```
 
 2.基于日志点的主从同步配置步骤：
->master端建立复制用户
->备份数据库文件。在slave端恢复文件
->slave端使用 `change master` 命令 配置主从同步命令
+>master端建立复制用户  
+>备份数据库文件。在slave端恢复文件  
+>slave端使用 `change master` 命令 配置主从同步命令  
 
 ``` java
 //-- 建立同步用户 并授权
