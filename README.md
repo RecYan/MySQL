@@ -6,7 +6,7 @@
 
 1.mysql复制基础
 1.1 异步复制，且主从之间存在时间延时，示意图如下：
-![异步复制](https://i.imgur.com/6gZtMpd.jpg)
+![异步复制](https://i.imgur.com/6gZtMpd.jpg)  
 1.2 复制基于binlog日志文件，其格式分为以下三种：
 ``` java
 
