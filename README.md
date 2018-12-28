@@ -10,8 +10,8 @@
 1.2 复制基于binlog日志文件，其格式分为以下三种：
 ``` java
 
-Statement: 在binlog文件中存储执行的sql语句
-row: binlog中存储event数据（变更的数据）
+Statement: 在binlog文件中存储执行的sql语句[基于段]
+row: binlog中存储event数据（记录每行变更的数据）[基于行]
 mixed:
 	 主从无差异时，使用statemt模式
 	 主从有差异时，使用row模式
