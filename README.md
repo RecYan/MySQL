@@ -74,7 +74,10 @@ start slave  //需要关闭防火墙过滤规则
 ## mysql索引 ##
 
 [索引数据结构博客参考：](https://blog.csdn.net/jacke121/article/details/78268602)
+
+
 ![B+树](https://i.imgur.com/ccOkrZL.jpg)
+
 
 
 
